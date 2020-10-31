@@ -1,0 +1,10 @@
+$cardWidth: 300px;
+$cardHeight: $cardWidth*1.4;
+$fontSize: 30px;
+
+// one column @ 12.5% is for an 8 column layout
+$numColumns: 8;
+$oneColumn: 100% / $numColumns;
+// variables for loops
+$loopStart: 1;
+$loopEnd: $numColumns + 1;
